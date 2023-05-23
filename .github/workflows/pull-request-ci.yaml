@@ -14,8 +14,6 @@ jobs:
         with:
           script: |
             const message = "Hello!";
-            // Create error.
-            process.exit(1)
             return message
           result-encoding: string
       - name: Get result
